@@ -6,3 +6,4 @@ defmodule Tutorials.Recursion.SumList do
     [head|tail]
   end
 end
+def
