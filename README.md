@@ -20,3 +20,4 @@ and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/tutorials>.
 
 # tutorials
+This repo is a documentation of my journey in learning elixir
