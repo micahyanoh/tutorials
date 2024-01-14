@@ -20,9 +20,9 @@ defmodule Tutorials.Functions.SevenWonders do
         ]
     end
 
-    @spec print_names([t()]) :: ok
+    @spec print_names([t()]) :: :ok
     def print_names(wonders) do
-        Enum.each(wonders, fn %{name: name} -> IO.puts(name) end)
+        Enum.each(wonders, fn %{name: name} -> IO.puts(name)end)
     end
 
 end
