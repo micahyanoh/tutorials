@@ -1,12 +1,13 @@
 defmodule Tutorials.Structures.Groceries do
     alias Tutorials.Structures.Groceries
 
-    defstruct :item "", :type "" , :taste ""
+    defstruct item: "", type: "", taste: ""
     @type t :: %Groceries{
         item: String.t(),
         type: String.t(),
-        taste: String.()
+        taste: String.t()
     }
+
 
     @spec all_items() :: [t()]
     def all_items() do
@@ -19,5 +20,9 @@ defmodule Tutorials.Structures.Groceries do
             %Groceries{ item: "sugar cane", taste: "sweet"}
 
         ]
+    end
+
+    def print_items(item_list) do
+        Enum.each(item_list, fn %{item: item, type: type, taste: taste} -> IO.puts("#{item} is a #{taste} #{type}") end)
     end
 end
