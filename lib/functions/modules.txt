@@ -1,0 +1,2 @@
+modules are used to organize named and private functions into a namespace.
+module attributes are used as constant throughout the module eg @name alf
