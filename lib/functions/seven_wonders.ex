@@ -1,4 +1,7 @@
 defmodule Tutorials.Functions.SevenWonders do
+    @moduledoc """
+    This module prints out the seven wonders of the world
+    """
     #creating a struct and setting the default values to ""
     defstruct name: "",country: "" 
     alias Tutorials.Functions.SevenWonders

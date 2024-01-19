@@ -1,4 +1,7 @@
 defmodule Tutorials.Structures.Groceries do
+    @moduledoc """
+    this module prints a list of items in a map
+    """
     alias Tutorials.Structures.Groceries
 
     defstruct item: "", type: "", taste: ""
